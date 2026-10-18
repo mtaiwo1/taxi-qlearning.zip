@@ -1,0 +1,26 @@
+{
+  "best": "baseline",
+  "best_cfg": {
+    "alpha": 0.1,
+    "gamma": 0.99,
+    "eps_start": 1.0,
+    "eps_min": 0.05,
+    "eps_decay": 0.995
+  },
+  "final_eval": {
+    "baseline": {
+      "mean_reward": 7.970000000000001,
+      "std_reward": 2.260331834045612,
+      "success_rate": 1.0,
+      "mean_steps": 13.029999999999998,
+      "per_seed_mean_reward": [
+        7.97,
+        7.97,
+        7.97,
+        7.97,
+        7.97
+      ],
+      "n_eval_episodes": 500
+    }
+  }
+}

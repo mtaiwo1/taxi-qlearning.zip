@@ -1,0 +1,74 @@
+{
+  "baseline": {
+    "mean_reward": 8.26,
+    "std_reward": 2.447937907709262,
+    "success_rate": 1.0,
+    "mean_steps": 12.74,
+    "seed_std_of_mean_reward": 0.0,
+    "train_last500_mean": 5.2424,
+    "episodes_to_positive_avg": 1211.4
+  },
+  "alpha=0.01": {
+    "mean_reward": -234.45999999999998,
+    "std_reward": 327.5222512562045,
+    "success_rate": 0.14200000000000002,
+    "mean_steps": 172.93,
+    "seed_std_of_mean_reward": 40.33025564015185,
+    "train_last500_mean": -61.7808,
+    "episodes_to_positive_avg": null
+  },
+  "alpha=0.5": {
+    "mean_reward": 8.204,
+    "std_reward": 2.4836069106039327,
+    "success_rate": 1.0,
+    "mean_steps": 12.796,
+    "seed_std_of_mean_reward": 0.02653299832284333,
+    "train_last500_mean": 5.3132,
+    "episodes_to_positive_avg": 509.6
+  },
+  "alpha=0.9": {
+    "mean_reward": 8.124,
+    "std_reward": 2.4971875841000957,
+    "success_rate": 1.0,
+    "mean_steps": 12.876,
+    "seed_std_of_mean_reward": 0.03666060555964679,
+    "train_last500_mean": 5.374,
+    "episodes_to_positive_avg": 477.4
+  },
+  "gamma=0.5": {
+    "mean_reward": -68.282,
+    "std_reward": 100.82959586875371,
+    "success_rate": 0.63,
+    "mean_steps": 81.512,
+    "seed_std_of_mean_reward": 4.898025724718074,
+    "train_last500_mean": 3.61,
+    "episodes_to_positive_avg": 2638.6
+  },
+  "gamma=0.9": {
+    "mean_reward": 8.26,
+    "std_reward": 2.447937907709262,
+    "success_rate": 1.0,
+    "mean_steps": 12.74,
+    "seed_std_of_mean_reward": 0.0,
+    "train_last500_mean": 5.324,
+    "episodes_to_positive_avg": 1294.8
+  },
+  "decay=0.99": {
+    "mean_reward": 8.26,
+    "std_reward": 2.447937907709262,
+    "success_rate": 1.0,
+    "mean_steps": 12.74,
+    "seed_std_of_mean_reward": 0.0,
+    "train_last500_mean": 5.6352,
+    "episodes_to_positive_avg": 1260.6
+  },
+  "decay=0.999": {
+    "mean_reward": 8.256,
+    "std_reward": 2.454833961345851,
+    "success_rate": 1.0,
+    "mean_steps": 12.744,
+    "seed_std_of_mean_reward": 0.00799999999999983,
+    "train_last500_mean": 5.2296,
+    "episodes_to_positive_avg": 2063.6
+  }
+}
