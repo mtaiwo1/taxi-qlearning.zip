@@ -9,7 +9,7 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Image, Tabl
 sel = json.load(open("results/selection_metrics.json"))
 fin = json.load(open("results/final_eval.json"))
 F = fin["final_eval"][fin["best"]]
-REPO = "[PASTE GITHUB REPO LINK HERE]"
+REPO = "https://github.com/mtaiwo1/taxi-qlearning.zip"
 
 ss = getSampleStyleSheet()
 body = ParagraphStyle("b", parent=ss["BodyText"], fontSize=10, leading=14, spaceAfter=6)
